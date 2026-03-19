@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <title>Redirecting to Hearthstone Design Build...</title>
   <script>
+    // Preserve the path and redirect to the new domain
     var path = window.location.pathname;
+    // Remove the repo prefix if served from github.io subdirectory
     path = path.replace(/^\/hearthstone-construction/, '');
     if (!path || path === '/') path = '';
     window.location.replace('https://hearthstonedesignbuild.com' + path);
