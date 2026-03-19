@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://hearthstonedesignbuild.com/$1",
+      "statusCode": 301
+    }
+  ]
+}
